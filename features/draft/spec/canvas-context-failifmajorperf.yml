@@ -1,0 +1,7 @@
+name: Canvas fileIfMajorPerformanceCaveat parameter
+description: Will cause the creation of the context to fail if will drastically lower performance.
+spec: https://registry.khronos.org/webgl/specs/latest/1.0/#5.2.1
+group: canvas
+compat_features:
+  - api.HTMLCanvasElement.getContext.webgl_context.options_failIfMajorPerformanceCaveat_parameter
+  - api.HTMLCanvasElement.getContext.webgl2_context.options_failIfMajorPerformanceCaveat_parameter

@@ -1,0 +1,7 @@
+name: Canvas power preference parameter
+description: Allows the developer to prioritize rendering performance or power savings.
+spec: https://registry.khronos.org/webgl/specs/latest/1.0/#5.2.1
+group: canvas
+compat_features:
+  - api.HTMLCanvasElement.getContext.webgl_context.options_powerPreference_parameter
+  - api.HTMLCanvasElement.getContext.webgl2_context.options_powerPreference_parameter

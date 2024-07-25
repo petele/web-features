@@ -1,0 +1,9 @@
+name: Canvas alpha parameter
+description: Indicates that the canvas contains an alpha channel or buffer.
+spec: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-alpha
+group: canvas
+compat_features:
+  - api.HTMLCanvasElement.getContext.2d_context.options_alpha_parameter
+  - api.HTMLCanvasElement.getContext.bitmaprenderer_context.options_alpha_parameter
+  - api.HTMLCanvasElement.getContext.webgl_context.options_alpha_parameter
+  - api.HTMLCanvasElement.getContext.webgl2_context.options_alpha_parameter

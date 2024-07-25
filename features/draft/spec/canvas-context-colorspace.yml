@@ -1,0 +1,6 @@
+name: Canvas color space parameter
+description: Canvas color space parameter defines the color space of the rendering context.
+spec: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-color-space
+group: canvas
+compat_features:
+  - api.HTMLCanvasElement.getContext.2d_context.options_colorSpace_parameter
