@@ -1,8 +1,10 @@
-draft_date: 2024-08-19
+draft_date: 2024-08-26
 name: ECMAScript Internationalization API Specification
 description: TODO
 spec: https://tc39.es/ecma402/
 compat_features:
+  - javascript.builtins.Array.toLocaleString
+  - javascript.builtins.BigInt.toLocaleString
   - javascript.builtins.Date.toLocaleDateString
   - javascript.builtins.Date.toLocaleString
   - javascript.builtins.Date.toLocaleTimeString
@@ -36,10 +38,6 @@ compat_features:
   - javascript.builtins.String.toLocaleUpperCase
 
 # The following features in the spec are already part of web-features:
-# - Array (initial support):
-#   - javascript.builtins.Array.toLocaleString
-# - BigInt:
-#   - javascript.builtins.BigInt.toLocaleString
 # - Intl.DisplayNames:
 #   - javascript.builtins.Intl.DisplayNames
 #   - javascript.builtins.Intl.DisplayNames.DisplayNames
