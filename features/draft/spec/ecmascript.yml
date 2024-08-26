@@ -1,13 +1,11 @@
-draft_date: 2024-08-19
+draft_date: 2024-08-26
 name: ECMAScript Language Specification
 description: TODO
 spec: https://tc39.es/ecma262/multipage/
 compat_features:
-  - javascript.builtins.AggregateError
-  - javascript.builtins.AggregateError.AggregateError
-  - javascript.builtins.AggregateError.errors
   - javascript.builtins.Array.@@species
   - javascript.builtins.Array.@@unscopables
+  - javascript.builtins.Array.toLocaleString
   - javascript.builtins.ArrayBuffer
   - javascript.builtins.ArrayBuffer.@@species
   - javascript.builtins.ArrayBuffer.ArrayBuffer
@@ -247,6 +245,7 @@ compat_features:
   - javascript.builtins.TypeError
   - javascript.builtins.TypeError.TypeError
   - javascript.builtins.TypedArray.@@species
+  - javascript.builtins.TypedArray.toLocaleString
   - javascript.builtins.URIError
   - javascript.builtins.URIError.URIError
   - javascript.builtins.WeakRef
@@ -393,6 +392,11 @@ compat_features:
   - webassembly.api.RuntimeError.RuntimeError
 
 # The following features in the spec are already part of web-features:
+# - Promise.any():
+#   - javascript.builtins.AggregateError
+#   - javascript.builtins.AggregateError.AggregateError
+#   - javascript.builtins.AggregateError.errors
+#   - javascript.builtins.Promise.any
 # - Array (initial support):
 #   - javascript.builtins.Array
 #   - javascript.builtins.Array.Array
@@ -405,7 +409,6 @@ compat_features:
 #   - javascript.builtins.Array.shift
 #   - javascript.builtins.Array.slice
 #   - javascript.builtins.Array.sort
-#   - javascript.builtins.Array.toLocaleString
 #   - javascript.builtins.Array.toString
 #   - javascript.builtins.Array.unshift
 #   - javascript.grammar.array_literals
@@ -560,7 +563,6 @@ compat_features:
 #   - javascript.builtins.TypedArray.slice
 #   - javascript.builtins.TypedArray.sort
 #   - javascript.builtins.TypedArray.subarray
-#   - javascript.builtins.TypedArray.toLocaleString
 #   - javascript.builtins.TypedArray.toString
 #   - javascript.builtins.Uint16Array
 #   - javascript.builtins.Uint16Array.Uint16Array
@@ -669,8 +671,6 @@ compat_features:
 #   - javascript.builtins.Promise.then
 # - Promise.allSettled():
 #   - javascript.builtins.Promise.allSettled
-# - Promise.any():
-#   - javascript.builtins.Promise.any
 # - Promise finally():
 #   - javascript.builtins.Promise.finally
 # - Regular expressions:
