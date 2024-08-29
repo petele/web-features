@@ -30,4 +30,4 @@ The Baseline definition and the feature grouping work that decides if features a
 
 ## Learn more
 
-To learn more about the background of Baseline, its goals, audience, and more, see [here](https://github.com/web-platform-dx/web-features/blob/main/docs/baseline.md).
+To learn more about the background of Baseline, its goals, audience, and more, see the [full Baseline definition](https://github.com/web-platform-dx/web-features/blob/main/docs/baseline.md).
