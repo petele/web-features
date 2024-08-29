@@ -133,7 +133,7 @@ The Baseline Limited Availability logo should be used to indicate a web platform
 
 ### Where can I check the status of a web platform feature?
 
-We’re working on a comprehensive site to help you determine the status of a web platform feature, but in the meantime, both [MDN](https://developer.mozilla.org/) and [Can I Use](https://caniuse.com/) indicate Baseline status for many features.
+Baseline is already displayed for many features on [Can I Use](https://caniuse.com/), [MDN](https://developer.mozilla.org/), and all features on [webstatus.dev](https://webstatus.dev) so you can see at a glance the status of features. We hope that many other sites will start to use Baseline to clearly explain feature status—from individual blogs to large content sites. Find out how to [use Baseline on your site](use-baseline) and explore some of the places you can already [find Baseline](baseline-in-the-wild).
 
 ### How are the logos licensed?
 

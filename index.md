@@ -26,7 +26,7 @@ Baseline is already displayed for many features on [Can I Use](https://caniuse.c
 
 ## Who owns Baseline?
 
-The Baseline definition and the feature grouping work that decides if features are part of Baseline is owned by the Web Features Owners Group and discussed in the [WebDX Community Group](webdx-cg).
+The Baseline definition and the feature grouping work that decides if features are part of Baseline is owned by the [Web Features Owners Group](https://github.com/web-platform-dx/web-features/blob/main/GOVERNANCE.md) and discussed in the [WebDX Community Group](webdx-cg).
 
 ## Learn more
 
